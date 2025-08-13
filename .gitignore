@@ -1,0 +1,40 @@
+# Node.js
+node_modules/
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# TypeScript
+*.tsbuildinfo
+dist/
+build/
+
+# Next.js
+.next/
+out/
+
+# Env files
+.env
+.env.*        # covers .env.local, .env.production, etc.
+
+# Logs
+logs
+*.log
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Coverage & testing
+coverage/
+jest.config.js
+*.test.ts
+*.spec.ts
+
+# IDE settings
+.vscode/
+.idea/
+*.swp
